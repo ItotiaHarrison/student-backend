@@ -5,7 +5,8 @@ class CreateUnits < ActiveRecord::Migration[6.1]
       t.string :description
       t.integer :code
       t.string :unit_grade
-      t.integer :category_id
+      t.string :category_id
+      t.integer :student_id
 
       t.timestamps
     end

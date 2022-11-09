@@ -31,7 +31,8 @@ ActiveRecord::Schema.define(version: 2022_11_09_054359) do
     t.string "description"
     t.integer "code"
     t.string "unit_grade"
-    t.integer "category_id"
+    t.string "category_id"
+    t.integer "student_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
